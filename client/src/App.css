@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.content {
+  text-align: left;
+}
+
+
+.scrolling-box {
+  height: 100vh;
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  width: 50%; /* Set the width of the scrolling box to occupy half of the page */
+  position: fixed; /* Fix the position of the scrolling box */
+  top: 0; /* Align the top of the scrolling box with the top of the page */
+  right: 0; /* Align the right side of the scrolling box with the right side of the page */
+}
+
+.left-half {
+  width: 49%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 40px; /* Increase padding on the sides */
+  box-sizing: border-box;
+  overflow-y: auto;
+  background-color: #5D3F6A;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.form-label {
+  flex: 1;
+  margin: 5px 0;
+  font-size: 16px; /* Adjust font size for labels */
+  word-break: break-word; /* Prevent long labels from overflowing */
+}
+
+.form-input {
+  width: 60px;
+  margin: 5px 0;
+  text-align: center;
+  font-size: 16px; /* Adjust font size for input fields */
+  padding: 4px; /* Add padding to input fields */
+}
+
+.form-input-indicator {
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 16px; /* Adjust font size for indicator */
+}
+
+.form-submit-button {
+  margin-top: 20px; /* Increase spacing above submit button */
+  background-color: #FFFFFF;
+  color: #5D3F6A;
+  border: 2px solid #FFFFFF;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 16px; /* Adjust font size for submit button */
+}
+
+.form-submit-button:hover {
+  background-color: #B3A2C7;
+  color: #FFFFFF;
+  border: 2px solid #B3A2C7;
+}
+
+.form-section {
+  font-size: 25px; /* Adjust font size for section headings */
+  margin-bottom: 10px; /* Add spacing below section headings */
+}
+
+.right-half {
+  width: 50%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background-color: #000000; /* Set background color for the right half */
+}
+
+.question-list {
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.question-item {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.question-text {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

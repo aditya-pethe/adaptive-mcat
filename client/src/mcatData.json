@@ -1,0 +1,35 @@
+{
+    "Chemical and Physical Foundations of Biological Systems": {
+      "subcategories": [
+        "Basic chemical and physical principles of living systems",
+        "Periodic table, chemical reactions, and stoichiometry",
+        "Atomic and molecular structure",
+        "Thermodynamics and kinetics",
+        "Fluids, gases, and equilibrium",
+        "Acids and bases",
+        "Organic chemistry and biochemistry concepts"
+      ]
+    },
+    "Biological and Biochemical Foundations of Living Systems": {
+      "subcategories": [
+        "Structure and function of biomolecules (proteins, nucleic acids, carbohydrates, lipids)",
+        "Cellular structure and function",
+        "Metabolism and bioenergetics",
+        "Molecular biology and genetics",
+        "Reproduction and development",
+        "Organ systems and physiology"
+      ]
+    },
+    "Psychological, Social, and Biological Foundations of Behavior": {
+      "subcategories": [
+        "Sensation, perception, and cognition",
+        "Learning, memory, and behavior",
+        "Emotion, stress, and mental health",
+        "Social interactions and group behavior",
+        "Cultural and social differences",
+        "Biological basis of behavior (nervous and endocrine systems)",
+        "Theories and concepts in psychology and sociology"
+      ]
+    }
+  }
+  

@@ -1,0 +1,26 @@
+{
+  "name": "adaptive-mcat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditya-pethe/adaptive-mcat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aditya-pethe/adaptive-mcat/issues"
+  },
+  "homepage": "https://github.com/aditya-pethe/adaptive-mcat#readme",
+  "dependencies": {
+
+    "express": "^4.18.2"
+  }
+}
